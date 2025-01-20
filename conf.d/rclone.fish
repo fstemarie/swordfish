@@ -1,4 +1,4 @@
-set -xg RCLONE_CONFIG /mnt/d/services/rclone/rclone.conf
+set -xg RCLONE_CONFIG /data/config/rclone/rclone.conf
 
 if status is-interactive
     echo - rclone environment variable initialized
