@@ -2,6 +2,12 @@
     "version": "2.0.0",
     "tasks": [
         {
+            "label": "Update",
+            "type": "shell",
+            "command": "fisher update",
+            "args": ["fstemarie/swordfish"]
+        },
+        {
             "label": "Install",
             "type": "shell",
             "command": "fisher install",
