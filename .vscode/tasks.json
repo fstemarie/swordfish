@@ -4,20 +4,20 @@
         {
             "label": "Update",
             "type": "shell",
-            "command": "fisher update",
-            "args": ["fstemarie/swordfish"]
+            "command": "fisher",
+            "args": ["update", "fstemarie/swordfish"]
         },
         {
             "label": "Install",
             "type": "shell",
-            "command": "fisher install",
-            "args": ["fstemarie/swordfish"]
+            "command": "fisher",
+            "args": ["install", "fstemarie/swordfish"]
         },
         {
             "label": "Uninstall",
             "type": "shell",
-            "command": "fisher uninstall",
-            "args": ["fstemarie/swordfish"]
+            "command": "fisher",
+            "args": ["uninstall", "fstemarie/swordfish"]
         }
     ]
 }
